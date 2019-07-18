@@ -15,8 +15,8 @@ class PublicController extends Controller
         try {
 
             $items = [
-                ['name' => 'Product 1', 'unit_price' => 300, 'quantity' => 2,],
-                ['name' => 'Product 2', 'unit_price' => 500, 'quantity' => 1,],
+                ['name' => 'Product 1', 'unit_price' => number_format(300.00,2, '', ''), 'quantity' => 2,],
+                ['name' => 'Product 2', 'unit_price' => number_format(999.99, 2, '', ''), 'quantity' => 1,],
             ];
             $customer = [
                 'name'  => 'Hugo Esteban Obregon Ramirez',
