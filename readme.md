@@ -3,5 +3,10 @@
 
 ## About LaravelConekta
 
-LaravelConekta is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+LaravelConekta es un ejemplo sencillo de integracion de la pasarela de pagos Conekta. Solo ingresa en el archivo .env  tus credenciales.
+
+- CONEKTA_SANDBOX_API_KEY_SECRET=
+- CONEKTA_SANDBOX_API_KEY_PUBLIC=key_KXo7uzdBdmHCsDFryAYswig
+
+
 
